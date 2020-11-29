@@ -1,0 +1,135 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Times New Roman;
+}
+
+.header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img\neet.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none; 
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: lightblue;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: lightblue;
+	color: #000;
+}
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+}
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+.table-box{
+	padding-top: 600px;
+}
+
+.table-box title1{
+	padding-top: 550px;
+}
+.table-row{
+    display: table;
+    width: 70%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: blue;
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0px rgba(0,0,50,0.3);
+}
+.table-head{
+    background: orange;
+    box-shadow: none;
+    color: black;
+    font-weight: 600;
+}
+.table-head .table-cell{
+    border-left: 1px solid white  ;
+}
+.table-cell{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 2px solid #d6d4d4;
+    vertical-align: middle;
+}
+.first-cell{
+    text-align: centre;
+    padding-left: 10px;
+    width: 10%;
+    border-right: black;
+}
+
+.title2{
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.holder{
+	display: inline-block;
+}
+
+
+.tiles{
+	display: inline-block;
+}
+
+.top{
+	width:278px;
+	height:40px;
+	border:1px solid blue;
+	background: lightblue;
+	text-align: center;
+	margin: auto;
+}
+
+.bottom{
+	width:248px;
+	height:300px;
+	border:1px solid #333;
+	padding: 10px 15px;
+}
